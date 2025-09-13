@@ -15,7 +15,7 @@ Volg onderstaande instructie om je eigen repository op te stellen.
 ```{note} Gebruik van de terminal
 Je bent waarschijnlijk gewend om met een grafische interface (en je muis) te werken: Je klikt naar de locatie waar je heen wilt. In de terminal werk je met commando's. Navigeren door de terminal doe je met `cd <folder>` (waarbij `<folder>` de folder is waar je naartoe wilt gaan). 
 
-Met `cd ..` ga je een folder omhoog. Met `ls` zie je de inhoud van de folder waar je in zit. Met mkdir `<folder>` maak je een nieuwe folder aan (waarbij `<folder>` de naam is van de nieuwe folder). Met rmdir `<folder>` verwijder je een lege folder (waarbij `<folder>` de naam is van de folder die je wilt verwijderen). 
+Met `cd ..` ga je een folder omhoog. Met `ls` zie je de inhoud van de folder waar je in zit. Met `mkdir <folder>` maak je een nieuwe folder aan (waarbij `<folder>` de naam is van de nieuwe folder). Met `rmdir <folder>` verwijder je een lege folder (waarbij `<folder>` de naam is van de folder die je wilt verwijderen). 
 
 Met `rm <file>` verwijder je een bestand (waarbij `<file>` de naam is van het bestand dat je wilt verwijderen). 
 
@@ -77,33 +77,6 @@ Als je start met werken: eerst een `pull` uitvoeren. Daarna je wijzigingen doorv
 Eventuele conflicten die ontstaan door gelijktijdig werken, kun je het systeem 'redelijk eenvoudig' oplossen.
 ```
 
-
-```{warning} Pas op
-Hieronder nog niet verwerkt
-```
-
-
-
-12. Ga terug naar VSC en open het bestand `.github/workflows/gh-pages.yml`.
-13
-. Vervang in dit bestand de regel `repository: Contemporary-Physicslab/thermolab` door `repository: <your-username>/<your-repo>` (waarbij `<your-username>` je GitHub gebruikersnaam is en `<your-repo>` de naam van je nieuwe repository).
-13. Sla het bestand op (via `ctrl + s` of via `file` $\rightarrow$ `save`).
-14. Open de terminal en typ `git add .` (om alle wijzigingen toe te voegen).
-15. Typ `git commit -m "Initial commit"` (om de wijzigingen te committen).
-16. Typ `git branch -M main` (om de hoofdbranch `main` te noemen).
-17. Typ `git remote add origin <url>` (waarbij `<url>` de url is van je nieuwe repository).
-18. Typ `git push -u origin main` (om de wijzigingen naar je nieuwe repository te pushen).
-19. Ga naar je nieuwe repository op GitHub en ververs de pagina (via `F5` of via de `reload` knop in je browser).
-
-
-23. Wacht tot alle cirkels groen zijn (dit kan een paar minuten duren, ververs de pagina eventueel met `F5`).
-
-Het boek is nu gedeployed en kan bekeken worden via de url die je vindt onder `code` $\rightarrow$ onder **About**.
-
-```{figure} ../Figures/rerunjobs.PNG
----
-name: fig_rerun
-width: 70%
----
-Once the book has been deploy, all cirkels will be green.
+```{note}
+In de terminal kun je ook `git pull` typen om een pull uit te voeren, `git add .` om alle wijzigingen toe te voegen, `git commit -m "message"` om de wijzigingen te committen (waarbij `"message"` een korte omschrijving is van de wijzigingen die je doorvoert) en `git push` om de wijzigingen naar je repository te pushen.
 ```
