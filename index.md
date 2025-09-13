@@ -1,5 +1,5 @@
 ---
-title: TUD JB2 Template
+title: Thermolab voor IP2
 site:
   hide_outline: true
   hide_toc: true
@@ -8,7 +8,7 @@ site:
 
 <div style="text-align: center">
 
-# Template
+# Thermolab voor IP2
 
 </div>
 
