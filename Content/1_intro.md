@@ -1,6 +1,6 @@
 # Introductie
 
-Dit is de GitHub repository voor het thermodynamica deel van IP2. De bedoeling is dat je deze repository kloont en je zelf een 'website' bouwt op basis van jouw werk. 
+Dit is de GitHub repository voor het thermodynamica deel van IP2. De bedoeling is dat je deze repository kloont en je vervolgens zelf een 'website' bouwt op basis van jouw werk. 
 
 Per groepje volgt eentje de onderstaande stappen waarna de anderen uitgenodigd worden om bij te dragen aan deze repository.
 
@@ -51,10 +51,31 @@ Nu zijn de bestanden op je computer gelinkt aan je nieuwe repository, maar staan
 Als je nu naar je nieuwe repository op GitHub gaat en de pagina ververst (via `F5` of via de `reload` knop in je browser), zie je dat alle bestanden zijn geupload. Je kunt nu ook de output zien op je eigen GitHub website! Klik daarvoor de link die rechts staat onder `code` $\rightarrow$ onder **About**.
 
 
+## Je partner(s) uitnodigen
+Bij IP2 werk je in tweetallen of drietallen. Je kunt je partner(s) uitnodigen om mee te werken aan jouw repository. Ga daarvoor naar je nieuwe repository op GitHub en doorloop onderstaande stappen.
+
+1. Ga naar je nieuwe repository op GitHub.
+2. Klik op `settings` (rechtsboven in je scherm).
+3. Klik in het linkermenu op `manage access`.
+4. Klik op de groene knop `invite a collaborator`.
+5. Typ de gebruikersnaam van je partner(s) en klik op `add <username> to this repository` (waarbij `<username>` de gebruikersnaam is van je partner).
+
+Als partner krijg je een mailtje met een uitnodiging om mee te werken aan de repository. Als je deze accepteert, kun je allebei wijzigingen aanbrengen in de repository.
+
 ## Je eerste wijzigingen doorvoeren
 Je hebt nu een eigen repository met alle bestanden die nodig zijn om een website te bouwen. Je kunt nu zelf aan de slag om de inhoud van de website aan te passen. Belangrijkste is om eerst even de URL aan te passen in het hoofdbestand.
 
+1. Open de `myst.yml` file in VSC. Daar zie je op twee plekken een URL naar github. Pas deze URL aan naar de URL van je eigen repository. 
+2. Je kunt nu de repository bijwerken via de terminal, een andere optie is links in VSC te kliken op het `source control` icoon (het derde icoon van boven, dat eruit ziet als een vork met drie punten). Daar geef je een samenvatting van je wijzigingen en klik je op het vinkje (bovenaan) om de wijzigingen toe te voegen. Daarna klik je op de drie puntjes (bovenaan) en kies je `push` om de wijzigingen naar je repository te pushen.
 
+```{warning} Let op
+Nu anderen ook toegang hebben tot je repository, is het belangrijk dat je regelmatig kijkt of er wijzigingen zijn doorgevoerd. Dit doe je door een `pull` uit te voeren (via de drie puntjes bovenaan in het `source control` menu en dan `pull` te kiezen). Als je dit niet doet, kan het zijn dat je wijzigingen overschreven worden door die van een ander. 
+
+Dus de volgende workflow is handig:
+Als je start met werken: eerst een `pull` uitvoeren. Daarna je wijzigingen doorvoeren en deze `committen` en `pushen`.
+
+Eventuele conflicten die ontstaan door gelijktijdig werken, kun je het systeem 'redelijk eenvoudig' oplossen.
+```
 
 
 ```{warning} Pas op
