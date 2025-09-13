@@ -12,7 +12,7 @@ site:
 
 </div>
 
-```{figure} Figures/Cover.PNG
+```{figure} Figures/Cover.jpg
 :width: 80%
 :align: center
 ```
