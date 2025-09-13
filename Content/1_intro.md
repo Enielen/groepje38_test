@@ -1,8 +1,9 @@
-# Introduction
+# Introductie
 
-This is the TUD JB2 template to produce your own online interactive textbook. 
+Dit is de GitHub repository voor het thermodynamics deel van IP2. De bedoeling is dat je deze repository kloont en je zelf een 'website' bouwt op basis van jouw werk. Per groepje volgt eentje de onderstaande stappen waarna de anderen uitgenodigd worden om bij te dragen aan deze repository.
 
-## Set up your own repository
+
+## Klonen en opstellen van je eigen repository
 Follow these instruction to use this template for your own book.
 
 1. Go to this [repository](https://github.com/TUD-JB-Templates/JB2/template.git)
