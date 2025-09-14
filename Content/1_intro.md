@@ -27,28 +27,34 @@ Met `code .` open je de huidige folder in VSC.
 
 Nu worden alle bestanden van de repository gedownload naar je computer, maar deze zijn nog steeds gelinkt aan de originele repository (dus als je nu iets pusht, komt het in de originele repository terecht - dat mag echter niet want je hebt geen schrijfrechten). We moeten dus de link met de originele repository verbreken en een nieuwe repository aanmaken.
 
-6. Open de folder in VSC (via `file` $\rightarrow$ `open folder`).
-7. Open de terminal en typ `git remote remove origin` (om de link met de originele repository te verbreken).
+6. Gebruik nu `cd thermolab` om in de thermolab folder te komen.
+7. Als dat gelukt is typ `git remote remove origin` (om de link met de originele repository te verbreken).
 
 Je kunt zowel via de terminal een nieuwe repository aanmaken als via de website van GitHub. Hieronder staat de methode via de website van GitHub beschreven. Ga naar [GitHub](https://github.com/) en doorloop onderstaande stap.
 
 8. Maak een nieuwe repository aan op GitHub (via de `+` rechtsboven in je scherm en dan `new repository`).  
-9. Kies een geschikte naam voor je repository (dit zal ook deel uitmaken van je URL!) en kies de optie `public`.
-10. Ga in je repository naar `settings` en in het linkermenu naar `Pages` en kies `Github actions`
-11. Klik op `code` en klik op het `gear-icon` (naast **About**) aan de rechterkant van de pagina.
-12. Vink het vakje **Use your GitHub Pages website** aan.
-13. Kopier de url van je nieuwe repository (deze heb je zo dadelijk nodig).
+9. Kies jullie groepsnummer als naam voor je repository (dit zal ook deel uitmaken van je URL!), verifieer dan dat `Choose visibility *
+` op `public` staat. Klik daarna op de groene knop `Create repositorty`.
+10. Ga in je repository naar `settings` en in het linkermenu naar `Pages` en kies onder her kopje `Source` de optie `Github actions`.
+11. Klik op `code` (linksboven).
+12. Kopier de url van je nieuwe repository (deze heb je zo dadelijk nodig).
 
 We hebben nu een nieuwe repository aangemaakt, maar deze is nog leeg. We moeten nu de bestanden die we gedownload hebben naar deze nieuwe repository pushen.
 
-14. Ga terug naar VSC.
-15. Typ in de terminal `git remote add origin <url>` (waarbij `<url>` de url is van je nieuwe repository).
+13. Ga terug naar VSC.
+14. Typ in de terminal `git remote add origin <url>` (waarbij `<url>` de url is van je nieuwe repository).
 
 Nu zijn de bestanden op je computer gelinkt aan je nieuwe repository, maar staan ze nog niet in je nieuwe repository. We moeten ze nu pushen.
 
-16. Typ in de terminal `git push -u origin main` (om de wijzigingen naar je nieuwe repository te pushen).
+15. Typ in de terminal `git push -u origin main` (om de wijzigingen naar je nieuwe repository te pushen).
 
-Als je nu naar je nieuwe repository op GitHub gaat en de pagina ververst (via `F5` of via de `reload` knop in je browser), zie je dat alle bestanden zijn geupload. Je kunt nu ook de output zien op je eigen GitHub website! Klik daarvoor de link die rechts staat onder `code` $\rightarrow$ onder **About**.
+
+Als je nu naar je nieuwe repository op GitHub gaat en de pagina ververst (via `F5` of via de `reload` knop in je browser), zie je dat alle bestanden zijn geupload. 
+
+16. Klik op het `gear-icon` (naast **About**) aan de rechterkant van de pagina.
+17. Vink het vakje **Use your GitHub Pages website** aan.
+
+Je kunt nu ook de output zien op je eigen GitHub website! Klik daarvoor de link die rechts staat onder `code` $\rightarrow$ onder **About**.
 
 
 ## Je partner(s) uitnodigen
@@ -56,8 +62,8 @@ Bij IP2 werk je in tweetallen of drietallen. Je kunt je partner(s) uitnodigen om
 
 1. Ga naar je nieuwe repository op GitHub.
 2. Klik op `settings` (rechtsboven in je scherm).
-3. Klik in het linkermenu op `manage access`.
-4. Klik op de groene knop `invite a collaborator`.
+3. Klik in het linkermenu op `Collaborators`.
+4. Klik op de knop `Add people` onder het kopje `manage access`.
 5. Typ de gebruikersnaam van je partner(s) en klik op `add <username> to this repository` (waarbij `<username>` de gebruikersnaam is van je partner).
 
 Als partner krijg je een mailtje met een uitnodiging om mee te werken aan de repository. Als je deze accepteert, kun je allebei wijzigingen aanbrengen in de repository.
