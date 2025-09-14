@@ -36,9 +36,10 @@ project:
     # - title: Simulaties
     #   children:
     #     - file: Content/PySim/...
-    # - title: Practica
-    #   children:
-    #     - file: Content/Labs/
+    - title: Practica
+      children:
+        - file: Content/Labs/Labtemplate.ipynb
+        - file: Content/Labs/Warmtecapaciteit.ipynb
 
     
 site:
