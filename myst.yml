@@ -39,6 +39,7 @@ project:
     - title: Practica
       children:
         - file: Content/Labs/Labtemplate.ipynb
+        - file: Content/Labs/cwater.ipynb
         - file: Content/Labs/Warmtecapaciteit.ipynb
 
     
