@@ -10,7 +10,7 @@ project:
     - name: Roel Smit
   # abstract: Optional
   date: 2025-13-09
-  github: https://github.com/Contemporary-Physicslab/thermolab # Change this URL to your GitHub repository
+  github: https://github.com/Enielen/groepje38_test.git # Change this URL to your GitHub repository
 
   plugins: 
     - plugins/experiment.mjs
@@ -53,4 +53,4 @@ site:
   
   actions:
     - title: report issue
-      url: https://github.com/Contemporary-Physicslab/thermolab/issues
+      url: https://github.com/Enielen/groepje38_test.git
